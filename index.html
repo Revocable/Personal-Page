@@ -1,27 +1,45 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" class="dark">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./css/style.css">
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
     <title>revocable's profile</title>
 </head>
-<body>
-    <div class="container">
-        <div class="item"></div>
-        <div class="item2"></div>
-        <div class="item3"><a href="https://www.youtube.com/user/murilovazscolari6">Youtube</a></div>
-        <div class="item4"></div>
-        <div class="item5"><a href="https://github.com/Revocable">Github</a></div>
-        <div class="item6"></div>
-        <div class="item7"><a href="https://twitter.com/revocablekk">Twitter</a></div>
-        <div class="item8"></div>
-        <div class="item9"><a href="https://steamcommunity.com/id/revocablegold/">Steam</a></div>
-        <div class="item10"></div>
-        <div class="item11"><a href="https://open.spotify.com/user/murilovazscolari6-br">Spotify</a></div>
-        <div class="item12"></div>
-    </div>
 
+<body class="bg-gray-900 text-white">
+    <div class="absolute inset-0 bg-cover bg-center" style="background-image: url('./assets/background.jpg');"></div>
+    <div class="relative container mx-auto p-4">
+        <div class="flex flex-col items-center space-y-4">
+            <div class="w-32 h-32 bg-cover bg-center rounded-full" style="background-image: url('../assets/pfp.jpg');"></div>
+            <div class="bg-gray-800 bg-opacity-50 p-4 rounded-lg shadow-lg backdrop-blur-md w-full max-w-md" style="backdrop-filter: blur(10px);">
+                <div class="flex flex-col space-y-4 text-center">
+                    <a href="https://www.youtube.com/user/murilovazscolari6" class="flex items-center w-full">
+                        <img src="../assets/youtube.png" alt="YouTube" class="w-8 h-8 mr-2">
+                        <span class="flex-1 text-center">YouTube</span>
+                    </a>
+                    <a href="https://github.com/Revocable" class="flex items-center w-full">
+                        <img src="../assets/github.png" alt="GitHub" class="w-8 h-8 mr-2">
+                        <span class="flex-1 text-center">GitHub</span>
+                    </a>
+                    <a href="https://twitter.com/revocablekk" class="flex items-center w-full">
+                        <img src="../assets/twitter.png" alt="Twitter" class="w-8 h-8 mr-2">
+                        <span class="flex-1 text-center">Twitter</span>
+                    </a>
+                    <a href="https://steamcommunity.com/id/revocablegold" class="flex items-center w-full">
+                        <img src="../assets/steam.png" alt="Steam" class="w-8 h-8 mr-2">
+                        <span class="flex-1 text-center">Steam</span>
+                    </a>
+                    <a href="https://open.spotify.com/user/murilovazscolari6-br" class="flex items-center w-full">
+                        <img src="../assets/spotify.png" alt="Spotify" class="w-8 h-8 mr-2">
+                        <span class="flex-1 text-center">Spotify</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
 </body>
+
 </html>
